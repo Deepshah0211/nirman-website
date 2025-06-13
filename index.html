@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,9 @@
   <title>Nirman Construction</title>
   <style>
     body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fff; color: #333; }
-    header { background: #0b2c47; padding: 20px; color: white; text-align: center; }
+    header { background: #0b2c47; padding: 20px; color: white; display: flex; align-items: center; justify-content: space-between; }
+    .logo-container { display: flex; align-items: center; }
+    .logo-container img { height: 50px; margin-right: 15px; }
     header h1 { margin: 0; font-size: 2em; }
     header p { font-size: 1em; margin-top: 5px; }
     nav { background: #153955; padding: 10px; text-align: center; }
@@ -24,8 +25,13 @@
 </head>
 <body>
   <header>
-    <h1>NIRMAN CONSTRUCTION</h1>
-    <p>Built with Legacy. Backed by Trust.</p>
+    <div class="logo-container">
+      <img src="logo.png" alt="Nirman Logo">
+      <div>
+        <h1>NIRMAN CONSTRUCTION</h1>
+        <p>Built with Legacy. Backed by Trust.</p>
+      </div>
+    </div>
   </header>
 
   <nav>
